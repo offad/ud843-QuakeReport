@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_min_magnitude_default"
+        android:inputType="numberDecimal"
+        android:key="@string/settings_min_magnitude_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_min_magnitude_label" />
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_radius_default"
+        android:inputType="numberDecimal"
+        android:key="@string/settings_radius_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_radius_label" />
+
+    <com.davidfadare.quakereport.DatePreference
+        android:defaultValue="@string/settings_date_default"
+        android:inputType="numberDecimal"
+        android:key="@string/settings_date_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_date_label" />
+
+    <ListPreference
+        android:entries="@array/Locations"
+        android:entryValues="@array/Locations"
+        android:key="@string/settings_locations_key"
+        android:title="@string/settings_locations_label" />
+</PreferenceScreen>

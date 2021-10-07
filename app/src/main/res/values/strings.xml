@@ -14,5 +14,32 @@
      limitations under the License.
 -->
 <resources>
-    <string name="app_name">Quake Report</string>
+    <string name="app_name">African Quake Report</string>
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Earthquake Settings</string>
+
+    <!-- Strings For Minimum Magnitude Preference [CHAR LIMIT=30] -->
+    <string name="settings_min_magnitude_label">Minimum Magnitude</string>
+    <string name="settings_min_magnitude_key" translatable="false">min_magnitude</string>
+    <string name="settings_min_magnitude_default" translatable="false">6</string>
+
+    <!-- Strings For Maximum Radius Preference [CHAR LIMIT=30] -->
+    <string name="settings_radius_label">Maximum Radius</string>
+    <string name="settings_radius_summary">The radius around the chosen location that is included in the search</string>
+    <string name="settings_radius_key" translatable="false">maxradiuskm</string>
+    <string name="settings_radius_default" translatable="false">5000</string>
+
+    <!-- Strings For Minimum Date Preference [CHAR LIMIT=30] -->
+    <string name="settings_date_label">From Date</string>
+    <string name="settings_date_key" translatable="false">starttime</string>
+    <string name="settings_date_default" translatable="false">2016-01-01</string>
+
+    <!-- Strings For Locations Preference [CHAR LIMIT=30] -->
+    <string name="settings_locations_label">Location</string>
+    <string name="settings_locations_summary">The location that the query centers on for the search</string>
+    <string name="settings_locations_key" translatable="false">location</string>
+
+    <string name="settings_locations_default" translatable="false">Nigeria</string>
 </resources>
