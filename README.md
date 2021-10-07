@@ -19,7 +19,7 @@ Africa. Hence, this app displays a list of recent earthquakes in certain areas o
 + Customising AdapterViews, such as ListViews, using ArrayAdapters.
 + Creating better UX through showing progression with a progress bar and signifies for empty queries on the ListView.
 
-[//]: ## Screenshots 
+[//]: Screenshots 
 [//]: <img src="https://github.com/mohammed2571994/quake-report-app/blob/master/screenshots/normal.png" width="480" hieght="854">
 [//]: <img src="https://github.com/mohammed2571994/quake-report-app/blob/master/screenshots/loading.png" width="480" hieght="854">
 [//]: <img src="https://github.com/mohammed2571994/quake-report-app/blob/master/screenshots/no_internet.png" width="480" hieght="854">
