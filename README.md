@@ -9,16 +9,17 @@ https://earthquake.usgs.gov/fdsnws/event/1/
 Based on a Udacity course in the Beginning Android Nanodegree for [Android Basics: Networking.](https://classroom.udacity.com/courses/ud843)
 
 ## Description 
-+ This app displays a list of recent earthquakes in certain areas of Africa from the U.S. Geological Survey (USGS) organization.
+The original app polls earthquake for earthquakes all around the world. However, while I lived in Nigeria, I wanted to make an earthquake app  that focused on certain areas of 
+Africa. Hence, this app displays a list of recent earthquakes in certain areas of Africa from the U.S. Geological Survey (USGS) organization.
 
-## What I've learned :
-+ Using AsyncTasks to connect to the internet.
-+ Using AsyncTasksLoader to connect to the internet.
-+ Reading and parsing JSON data.
-+ Customizing ListViews using ArrayLists & ArrayAdapters.
-+ Using progress bar and listview empty for better UX.
+## Evaluation
++ Using asynchronous tasks and loaders to connect to the internet.
++ Making calls to online API services
++ Reading and parsing JSON data fetched from such API services.
++ Customising AdapterViews, such as ListViews, using ArrayAdapters.
++ Creating better UX through showing progression with a progress bar and signifies for empty queries on the ListView.
 
-## Screenshots 
+[//]: ## Screenshots 
 [//]: <img src="https://github.com/mohammed2571994/quake-report-app/blob/master/screenshots/normal.png" width="480" hieght="854">
 [//]: <img src="https://github.com/mohammed2571994/quake-report-app/blob/master/screenshots/loading.png" width="480" hieght="854">
 [//]: <img src="https://github.com/mohammed2571994/quake-report-app/blob/master/screenshots/no_internet.png" width="480" hieght="854">
